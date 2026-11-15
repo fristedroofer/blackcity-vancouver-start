@@ -1,6 +1,8 @@
-# Black City Eden Chronicles — Vancouver Start
+# Black City Eden Chronicles — Vancouver Start (basics)
 
-A playable greybox of the starting area, exported from Godot 4.3 for the web. Open this site in Safari on iPhone, or in any modern desktop browser.
+A playable greybox of the starting area, exported from Godot 4.3 for the web. This build is the basics: roam, gather, and learn. Later systems are still in the project, but they are switched off so they can come back one at a time.
+
+Open this site in Safari on iPhone, or in any modern desktop browser.
 
 ## Play on iPhone
 
@@ -11,15 +13,19 @@ A playable greybox of the starting area, exported from Godot 4.3 for the web. Op
 
 This build is single-threaded and does not need special browser headers.
 
-## Touch controls
+## What's on
 
-- Left stick: move
-- Drag on the right side: turn the camera
-- Buttons: Jump, Run, Build, Squad, Mic, Cmd, Mark, Journal, Map
+- Move (left stick, or WASD / arrows)
+- Jump, Run, camera (drag on the right, or Q/J and L to turn; C cycles close / far / aerial)
+- Map, Help, Mark, and Journal (the journal stays on your device)
+- Gather: 36 glowing pickups near spawn (12 stone, 12 wood, 12 herb). Walk close, then press E or GATHER. Your bag count is on screen, and each pickup is logged in the journal.
 
-Hold Squad, tap troops, and drag a path to show the holo hex grid. Voice uses the browser's own speech recognition; if it is not available, use Cmd to type the same commands. The play journal stays on your device and can be exported from the Journal button.
+## What's hidden for now (code kept, flags off)
 
-Keyboard controls also work on desktop (WASD or arrows to move, Q/E or J/L to turn).
+- Build Mode
+- Squad and the holo hex grid
+- Voice and typed commands (CMD)
+- Plant
 
 ## Credits
 
