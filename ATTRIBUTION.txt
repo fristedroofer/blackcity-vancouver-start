@@ -1,0 +1,14 @@
+Black City Eden Chronicles - Vancouver Start greybox v1
+
+Map geometry (roads, building footprints, parks, parking) is derived from OpenStreetMap.
+  (c) OpenStreetMap contributors. Data available under the Open Database License (ODbL) 1.0.
+  https://www.openstreetmap.org/copyright
+  https://opendatacommons.org/licenses/odbl/1-0/
+  The playable greybox is a Produced Work / derivative of ODbL data.
+  If you publicly share the derived data itself, it must stay under ODbL with this attribution.
+
+Geocoding: Nominatim (OpenStreetMap, ODbL) and U.S. Census Bureau Geocoder (public domain).
+Elevation: not used (flat ground).
+Trees: procedural placeholders (seeded random), not real tree locations.
+Everything else (code, shaders, meshes, icon, UI) is original work made for this project. No third-party art assets.
+Engine: Godot Engine 4.3 (MIT license) - https://godotengine.org/license
