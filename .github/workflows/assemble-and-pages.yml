@@ -1,4 +1,4 @@
-name: Assemble binaries and enable Pages
+name: Assemble staged binaries
 
 on:
   push:
@@ -7,20 +7,15 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
-  group: assemble-and-pages
+  group: assemble-binaries
   cancel-in-progress: false
 
 jobs:
-  assemble-and-deploy:
+  assemble:
     runs-on: ubuntu-latest
     if: github.event_name == 'workflow_dispatch' || github.event.head_commit.message != 'Add binary game assets.'
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -66,17 +61,3 @@ jobs:
             git commit -m "Add binary game assets."
             git push
           fi
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-        with:
-          enablement: true
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: '.'
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4

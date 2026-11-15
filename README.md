@@ -2,7 +2,7 @@
 
 A playable greybox of the starting area, exported from Godot 4.3 for the web. This build is the basics: roam, gather, and learn. Later systems are still in the project, but they are switched off so they can come back one at a time.
 
-Open this site in Safari on iPhone, or in any modern desktop browser.
+You play as Thomas - Raven Guard. Open this site in Safari on iPhone, or in any modern desktop browser.
 
 ## Play on iPhone
 
