@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1794765085|3565274';
+const CACHE_VERSION = '1794765953|3983407';
 /** @type {string} */
 const CACHE_PREFIX = 'Black City Eden -sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
